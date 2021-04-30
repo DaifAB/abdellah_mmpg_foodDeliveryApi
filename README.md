@@ -16,6 +16,7 @@ node app.js
  ### Documentation :
  
  [POST] /admin/add  Ajouter un admin
+ 
  Request body :
  ```
  {
@@ -24,6 +25,7 @@ node app.js
  }
  ```
   [POST] /admin/login Authentifiation d'un admin
+  
  Request body :
   ```
  {
