@@ -39,7 +39,7 @@ node app.js
    "auth-token" : "token"
  
  ```
- Response : Array of all client objects
+ Response : Array of all clients objects
  
  
  
