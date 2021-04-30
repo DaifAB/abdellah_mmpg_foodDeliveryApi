@@ -13,3 +13,34 @@ step 2 : Run the Application using node
 ```
 node app.js
 ```
+ ### Documentation :
+ 
+ [POST] /admin/add  Ajouter un admin
+ Request body :
+ ```
+ {
+    "username" : "username",
+    "password" : "password"
+ }
+ ```
+  [POST] /admin/login Authentifiation d'un admin
+ Request body :
+  ```
+ {
+    "username" : "username",
+    "password" : "password"
+ }
+ ```
+ Response : token
+ 
+ [GET] /client/getAll Affichier tous les clients
+ Headers :
+   ```
+   "auth-token" : "token"
+ 
+ ```
+ Response : Array of all client objects
+ 
+ 
+ 
+ 
